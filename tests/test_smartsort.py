@@ -1,5 +1,5 @@
-\
-from smartsort_gl import smart_sort
+
+from gl_smartsort import smart_sort
 
 def test_basic_numeric_order():
     assert smart_sort("A*01:103+A*01:11") == "A*01:11+A*01:103"

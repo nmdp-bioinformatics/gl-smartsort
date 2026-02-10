@@ -1,4 +1,4 @@
-# smartsort-gl
+# gl-smartsort
 
 A tiny Python package that canonicalizes **GL Strings** by *smart sorting*:
 - recursively sorts within delimiter levels in precedence: `^`, `|`, `+`, `~`, `/`
@@ -20,7 +20,7 @@ python -m pip install -e .
 ## Usage (Python)
 
 ```python
-from smartsort_gl import smart_sort
+from gl_smartsort import smart_sort
 
 print(smart_sort("A*01:103+A*01:11"))
 # A*01:11+A*01:103
