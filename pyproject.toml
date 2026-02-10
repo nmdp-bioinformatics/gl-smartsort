@@ -3,9 +3,9 @@ requires = ["hatchling>=1.20"]
 build-backend = "hatchling.build"
 
 [project]
-name = "smartsort-gl"
+name = "gl-smartsort"
 version = "0.1.0"
-description = "Smart-sort GL Strings (Python port of SmartSort.pm) into a canonical order."
+description = "Smart-sort GL Strings into a canonical order."
 readme = "README.md"
 requires-python = ">=3.9"
 license = { text = "MIT" }
@@ -20,12 +20,12 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/mmaiers-nmdp/smartsort-gl"
-Source = "https://github.com/mmaiers-nmdp/smartsort-gl"
-Issues = "https://github.com/mmaiers-nmdp/smartsort-gl/issues"
+Homepage = "https://github.com/nmdp-bioinformatics/gl-smartsort"
+Source = "https://github.com/nmdp-bioinformatics/gl-smartsort"
+Issues = "https://github.com/nmdp-bioinformatics/gl-smartsort/issues"
 
 [project.scripts]
 gl-smartsort = "gl_smartsort.cli:main"
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/gl_smartsort"]
+packages = ["gl_smartsort"]
