@@ -28,4 +28,4 @@ Issues = "https://github.com/nmdp-bioinformatics/gl-smartsort/issues"
 gl-smartsort = "gl_smartsort.cli:main"
 
 [tool.hatch.build.targets.wheel]
-packages = ["gl_smartsort"]
+packages = ["src/gl_smartsort"]
